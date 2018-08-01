@@ -1,0 +1,39 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start" : "webpack --config webpack.config.js --mode production --color --progress"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.22.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-react": "^6.9.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.3.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "maquette": "^3.3.0"
+  }
+}
